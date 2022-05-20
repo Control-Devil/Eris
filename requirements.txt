@@ -21,6 +21,7 @@ geopy
 nltk
 psutil
 aiohttp>=2.2.5
+NumPy==1.21.2
 Pillow>=4.2.0
 CurrencyConverter
 googletrans==4.0.0-rc1
@@ -70,7 +71,7 @@ lyricsgenius
 tswift
 python-arq
 envparse
-#profanity (Credits to Cutiepii)
+#profanity (Credits to Cutieii)
 better_profanity
 textblob 
 nudepy
