@@ -445,7 +445,7 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 
 @whitelist_plus
 def whitelistlist(update: Update, context: CallbackContext):
-    reply = "<b>Known Wolf Disasters 🐺:</b>\n"
+    reply = "<b>Known Intermediate Disasters 🐺:</b>\n"
     m = update.effective_message.reply_text(
         "<code>Gathering intel..</code>",
         parse_mode=ParseMode.HTML,
@@ -464,7 +464,7 @@ def whitelistlist(update: Update, context: CallbackContext):
 
 @whitelist_plus
 def tigerlist(update: Update, context: CallbackContext):
-    reply = "<b>Known Tiger Disasters 🐯:</b>\n"
+    reply = "<b>Known Advanced Disasters 🐯:</b>\n"
     m = update.effective_message.reply_text(
         "<code>Gathering intel..</code>",
         parse_mode=ParseMode.HTML,
@@ -487,7 +487,7 @@ def supportlist(update: Update, context: CallbackContext):
         "<code>Gathering intel..</code>",
         parse_mode=ParseMode.HTML,
     )
-    reply = "<b>Known Demon Disasters 👹:</b>\n"
+    reply = "<b>Known Saintly Disasters 👹:</b>\n"
     for each_user in DEMONS:
         user_id = int(each_user)
         try:
@@ -506,7 +506,7 @@ def sudolist(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML,
     )
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
-    reply = "<b>Known Dragon Disasters 🐉:</b>\n"
+    reply = "<b>Known Kingly Disasters 🐉:</b>\n"
     for each_user in true_sudo:
         user_id = int(each_user)
         try:
@@ -525,7 +525,7 @@ def devlist(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>Hero Association Members ⚡️:</b>\n"
+    reply = "<b>Team Nexus Members ⚡️:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
@@ -542,15 +542,15 @@ Commands listed here only work for users with special access and are mainly used
 Group admins/group owners do not need these commands.
 
  ╔ *List all special users:*
- ╠ `/dragons`*:* Lists all Dragon disasters
- ╠ `/demons`*:* Lists all Demon disasters
- ╠ `/tigers`*:* Lists all Tigers disasters
- ╠ `/wolves`*:* Lists all Wolf disasters
- ╠ `/heroes`*:* Lists all Hero Association members
- ╠ `/adddragon`*:* Adds a user to Dragon
- ╠ `/adddemon`*:* Adds a user to Demon
- ╠ `/addtiger`*:* Adds a user to Tiger
- ╠ `/addwolf`*:* Adds a user to Wolf
+ ╠ `/kingly`*:* Lists all Dragon disasters
+ ╠ `/advanced`*:* Lists all Demon disasters
+ ╠ `/inter`*:* Lists all Tigers disasters
+ ╠ `/human`*:* Lists all Wolf disasters
+ ╠ `/divine`*:* Lists all Team Nexus X members
+ ╠ `/addkingly`*:* Adds a user to Dragon
+ ╠ `/addadvanced`*:* Adds a user to Demon
+ ╠ `/addinter`*:* Adds a user to Tiger
+ ╠ `/addhuman`*:* Adds a user to Wolf
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
  ╔ *Broadcast: (Bot owner only)*
