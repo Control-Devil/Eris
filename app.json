@@ -1,6 +1,6 @@
 {
       "name": "Eris",
-      "description": "A Anime Themed Telegram group management bot.",
+      "description": "A Anime Themed Telegram Group Management Bot.",
       "keywords": [
          "telegram",
          "advance",
@@ -26,7 +26,7 @@
          "value": ""
       },
       "INFOPIC": {
-         "value": "True",
+         "value": "true",
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
