@@ -250,6 +250,10 @@ __help__ = """
  • `/lastfm`*:* returns what you're scrobbling on last.fm
  *Reverse:*
  • `/reverse`*:* Does a reverse image search of the media which it was replied to.
+ *Grs:*
+ • `/grs`*:* Does a grs image search of the media which it was replied to.
+ *Pp:*
+ • `/pp`*:* Does a pp image search of the media which it was replied to.
  *Wikipedia:*
  • `/wiki <query>`*:* wikipedia your query
  *Wallpapers:*
