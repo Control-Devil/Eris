@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-——— 「 [Eris Boreas Greyrat](https://telegra.ph/file/b4c2476db13d7e158bf00.mp4) 」 ———
+——— 「 [Eris Boreas Greyrat](https://te.legra.ph/file/0621662848ad9603dddb6.mp4) 」 ———
 ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - ꜱᴀɴ!  
 ᴀ ᴍᴜʟᴛɪ-ꜰᴇᴀᴛᴜʀᴇᴅ ᴄʜᴀᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
@@ -120,13 +120,16 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-`Hi.. I'm` [Neko💜]("https://telegra.ph/file/85ce7f2dc743fb5c0c93a.jpg") 
-`Click on the buttons below to get about Cute Futures..`"""
-
-
-NEKO_IMG = "https://telegra.ph/file/8fa070dfa60da6c024ac3.mp4"
-
-DONATE_STRING = """Hey , If you want Donate means Give a Star ⭐ to this [Repo](https://GitHub.com/Hodacka/NekoRobot-2)"""
+Hey there! Myself [Eris BoreasGreyrat](https://telegra.ph/file/b4c2476db13d7e158bf00.mp4).
+Have a look at the following for an idea of some of the things I can help you with.
+*Main* commands available:
+ ➛ /help: PM's you this message.
+ ➛ /help <module name>: PM's you info about that module.
+ ➛ /bug <error name> : inform support about that error 
+ ➛ /settings: 
+   ❂ in PM: will send you your settings for all supported modules.
+   ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ :* [Support](https://t.me/NexusXSupport)
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -240,7 +243,8 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_animation(
-            NEKO_IMG, caption= "<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
+            NEKO_IMG,
+            caption= "Hey There!\n•I am Eris Boreas Greyrat Here To Slash Some Monster!•Haven't Slee/protecc Since:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -248,12 +252,12 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
-                            url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                            text="ꜱᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/NexusXSupport",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Black_Knights_Union",
+                            text="ᴜᴘᴅᴀᴛᴇꜱ",
+                            url="https://t.me/TeamNexusX",
                         ),
                     ]
                 ]
@@ -386,7 +390,7 @@ def neko_about_callback(update, context):
     query = update.callback_query
     if query.data == "neko_":
         query.message.edit_text(
-            text=""" hey I'm *Neko*, a Cute group management bot Created with Cuteness to help you manage your group easily.
+            text=""" Hey I'm *Eris*, A Anime Themed Management Bot Created To Help You To Manage Your Group Easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -394,8 +398,7 @@ def neko_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Hodacka/NekoRobot-2).
-                 \n\nIf you have any question about *Neko*, let us know at .""",
+                 \n\nIf you have any question about *Eris*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -420,8 +423,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..💜 I'm *Neko*
-                 \nHere is the [Source Code](https://github.com/Hodacka/NekoRobot-2) .""",
+            text=""" Konichiwa I'm *Eriso*
+                 \nHere is the [Source Code]() .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
