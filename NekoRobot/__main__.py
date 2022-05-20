@@ -423,8 +423,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Konichiwa I'm *Eriso*
-                 \nHere is the [Source Code]() .""",
+            text=""" Konichiwa I'm *Eris*
+                 \nHere is the [Source Code](https://t.me/NexusXSupport/12582) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -664,7 +664,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784 and DONATION_LINK:
+        if OWNER_ID != 1938491135 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -713,8 +713,8 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}",
-                "[Yes I'm alive now!](https://telegra.ph/file/859785ead7c223f5d09b3.jpg)",
+                f"@NexusXSupport",
+                "[Yes I'm alive now!](https://te.legra.ph/file/0621662848ad9603dddb6.mp4)",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
