@@ -89,15 +89,19 @@ PM_START_TEXT = """
 buttons = [
   [
     InlineKeyboardButton(
-       text="➕ ᴀᴅᴅ ᴇʀɪꜱ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
-       url="t.me/ErisXRobot?startgroup=true")
+      text="➕ ᴀᴅᴅ ᴇʀɪꜱ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+      url="t.me/ErisXRobot?startgroup=true",
     ),
   ],
   [
-    InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                    
-      
-      InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/NekoRobot-2"),
+    InlineKeyboardButton(
+      text="[ʜᴇʟᴏ & ᴄᴍᴅꜱ]",
+      callback_data="help_back"),
+    ),
+    InlineKeyboardButton(
+      text="[► Repo ◄]",
+      url="https://GitHub.com/Awesome-Prince/NekoRobot-2"
+    ),
                        InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network"),
                      ],
                     [                  
