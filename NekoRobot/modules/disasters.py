@@ -543,14 +543,14 @@ Group admins/group owners do not need these commands.
 
  ╔ *List all special users:*
  ╠ `/kingly`*:* Lists all Dragon disasters
- ╠ `/advanced`*:* Lists all Demon disasters
- ╠ `/inter`*:* Lists all Tigers disasters
- ╠ `/human`*:* Lists all Wolf disasters
+ ╠ `/saint`*:* Lists all Demon disasters
+ ╠ `/avan`*:* Lists all Tigers disasters
+ ╠ `/inter`*:* Lists all Wolf disasters
  ╠ `/divine`*:* Lists all Team Nexus X members
  ╠ `/addkingly`*:* Adds a user to Dragon
- ╠ `/addadvanced`*:* Adds a user to Demon
- ╠ `/addinter`*:* Adds a user to Tiger
- ╠ `/addhuman`*:* Adds a user to Wolf
+ ╠ `/addsaint`*:* Adds a user to Demon
+ ╠ `/addadvan`*:* Adds a user to Tiger
+ ╠ `/addinter`*:* Adds a user to Wolf
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
  ╔ *Broadcast: (Bot owner only)*
