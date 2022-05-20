@@ -99,22 +99,25 @@ buttons = [
       callback_data="help_back"),
     ),
     InlineKeyboardButton(
-      text="[► Repo ◄]",
-      url="https://GitHub.com/Awesome-Prince/NekoRobot-2"
+      text="[ᴏᴡɴᴇʀ]",
+      url="https://t.me/Husbandoo",
     ),
-                       InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network"),
-                     ],
-                    [                  
-                       InlineKeyboardButton(
-                             text="Support",
-                             url="https://t.me/nekoxsupport"),
-                       InlineKeyboardButton(
-                             text="Updates",
-                             url="https://t.me/nekoxupdates")
-                     ], 
-    ]
-
-
+    InlineKeyboardButton(
+      text="[ᴇʟᴅᴏʀᴀᴅᴏ™]",
+      url="https://t.me/Eldoradoo",
+    ),
+  ],
+  [                  
+    InlineKeyboardButton(
+      text="ꜱᴜᴘᴘᴏʀᴛ",
+      url="https://t.me/Nexusxsupport"
+    ),
+    InlineKeyboardButton(
+      text="ᴜᴘᴅᴀᴛᴇꜱ",
+      url="https://t.me/TeamNexusX"
+    ),
+  ], 
+]
 
 HELP_STRINGS = """
 `Hi.. I'm` [Neko💜]("https://telegra.ph/file/85ce7f2dc743fb5c0c93a.jpg") 
