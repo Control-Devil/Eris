@@ -74,24 +74,30 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [NekoRobot](https://telegra.ph/file/38559b4da168432999bb8.jpg) 」────
-*Hola!*
-*I am an Anime themed advance group management bot with a lot of Features.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-• *thnx to @NekoXRobot for neko robot repo*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities ××
+——— 「 [Eris Boreas Greyrat](https://telegra.ph/file/b4c2476db13d7e158bf00.mp4) 」 ———
+ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - ꜱᴀɴ!  
+ᴀ ᴍᴜʟᴛɪ-ꜰᴇᴀᴛᴜʀᴇᴅ ᴄʜᴀᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+
+❍ ꜱᴇʀᴠᴇʀ ᴜᴘᴛɪᴍᴇ : {}
+❍ ᴠᴇʀꜱɪᴏɴ : 3.10.2
+❍ {} ᴜꜱᴇʀꜱ, ᴀᴄʀᴏꜱꜱ {} ᴄʜᴀᴛꜱ.
+
+ᴛʀʏ ᴛʜᴇ /help ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ᴄʜᴀʀᴍ ××
+𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 : [𝗧𝗲𝗮𝗺𝗡𝗲𝘅𝘂𝘀𝗫](https://t.me/TeamNexusX)
 """
 
 buttons = [
-    [
-                        InlineKeyboardButton(
-                            text="Add Neko To Your Group",
-                            url="t.me/NekoXRobot?startgroup=true")
-                    ],
-                   [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/NekoRobot-2"),
+  [
+    InlineKeyboardButton(
+       text="➕ ᴀᴅᴅ ᴇʀɪꜱ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+       url="t.me/ErisXRobot?startgroup=true")
+    ),
+  ],
+  [
+    InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                    
+      
+      InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/NekoRobot-2"),
                        InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network"),
                      ],
                     [                  
