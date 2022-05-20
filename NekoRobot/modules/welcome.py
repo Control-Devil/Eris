@@ -213,7 +213,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             if new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Be cool! A member of the Heroes Association just joined.",
+                    "Be cool! A member of the Tᴇᴀᴍ Nᴇxᴜꜱ Sᴜᴘᴘᴏʀᴛ™ just joined.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -226,7 +226,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             if new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Whoa! A Dragon disaster just joined! Stay Alert!",
+                    "Whoa! A Kingly just joined! Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -239,7 +239,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             if new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! Someone with a Demon disaster level just joined!",
+                    "Huh! Someone with a Advanced Magician just joined!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -252,7 +252,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             if new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Roar! A Tiger disaster just joined!",
+                    "Roar! A Intermediate Magician just joined!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -265,7 +265,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Tigers
             if new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "Awoo! A Wolf disaster just joined!",
+                    "Awoo! A Human without magic just joined!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
